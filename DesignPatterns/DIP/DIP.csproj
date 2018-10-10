@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{FAFA2771-AAB6-4A82-8E9B-F5649CA7F210}</ProjectGuid>
+    <ProjectGuid>{8B6780C8-A9C4-4B16-9C07-91050F588D66}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>OCP</RootNamespace>
-    <AssemblyName>OCP</AssemblyName>
+    <RootNamespace>DIP</RootNamespace>
+    <AssemblyName>DIP</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
