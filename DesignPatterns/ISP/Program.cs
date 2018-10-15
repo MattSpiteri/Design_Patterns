@@ -4,6 +4,7 @@ namespace SOLID.InterfaceSegregationPrinciple
 {
     public class Document
     {
+        static void Main(string[] args) { }
     }
 
     public interface IMachine
