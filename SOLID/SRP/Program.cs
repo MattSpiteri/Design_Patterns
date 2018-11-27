@@ -68,7 +68,7 @@ namespace SOLID.SRP
             WriteLine(j);
 
             var p = new Persistence();
-            var filename = @"c:\temp\journal.txt";
+            var filename = @"c:\journal.txt";
             p.SaveToFile(j, filename);
             Process.Start(filename);
         }
