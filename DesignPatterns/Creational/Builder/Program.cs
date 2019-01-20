@@ -4,7 +4,7 @@ using static System.Console;
 
 namespace Creational.Builder
 {
-    class HtmlElement
+    internal class HtmlElement
     {
         public string Name, Text;
         public List<HtmlElement> Elements = new List<HtmlElement>();
@@ -12,7 +12,6 @@ namespace Creational.Builder
 
         public HtmlElement()
         {
-
         }
 
         public HtmlElement(string name, string text)
@@ -46,7 +45,7 @@ namespace Creational.Builder
         }
     }
 
-    class HtmlBuilder
+    internal class HtmlBuilder
     {
         private readonly string rootName;
 
@@ -80,12 +79,12 @@ namespace Creational.Builder
             root = new HtmlElement { Name = rootName };
         }
 
-        HtmlElement root = new HtmlElement();
+        private HtmlElement root = new HtmlElement();
     }
 
     public class Demo
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             // if you want to build a simple HTML paragraph using StringBuilder
             var hello = "hello";
